@@ -670,7 +670,7 @@ body.compensate-for-scrollbar {
     @supports (padding: max(0px)) {
         .fancybox-caption {
             padding-left: unquote('max(12px, env(safe-area-inset-left))');
-            padding-right: unquote'max(12px, env(safe-area-inset-right))');
+            padding-right: unquote('max(12px, env(safe-area-inset-right))');
         }
     }
 }
